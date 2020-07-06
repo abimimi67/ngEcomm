@@ -1,0 +1,8 @@
+footer{
+  background-color:#222222;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+  color: rgb(242, 242, 247);
+  font-size: 12px;
+}
