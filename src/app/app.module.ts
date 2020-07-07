@@ -9,6 +9,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { TeaserComponent } from './components/teaser/teaser.component';
+import { ProduitsALaUneComponent } from './components/produits-ala-une/produits-ala-une.component';
+import { PromotionComponent } from './components/promotion/promotion.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { TeaserComponent } from './components/teaser/teaser.component';
     NavbarComponent,
     FooterComponent,
     HeaderComponent,
-    TeaserComponent
+    TeaserComponent,
+    ProduitsALaUneComponent,
+    PromotionComponent
   ],
   imports: [
     BrowserModule,
